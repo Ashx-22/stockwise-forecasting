@@ -1,0 +1,17 @@
+node_modules/
+.next/
+out/
+.env
+.env.local
+.vercel
+*.log
+.DS_Store
+__pycache__/
+*.pyc
+.pytest_cache/
+backend/artifacts/models/
+backend/artifacts/*.csv.gz
+backend/artifacts/*.csv
+backend/artifacts/*.json
+backend/artifacts/mlflow.db
+backend/artifacts/mlruns/

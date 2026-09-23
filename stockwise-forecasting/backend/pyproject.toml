@@ -1,0 +1,10 @@
+[project]
+name = "stockwise"
+version = "1.0.0"
+description = "Retail demand forecasting, backtesting, monitoring and API"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]
+filterwarnings = ["ignore::UserWarning", "ignore::FutureWarning", "ignore::DeprecationWarning"]
